@@ -125,8 +125,9 @@ Lisez la suite pour voir où mettre ces fichiers.
 
 ## Packaging pour mobile
 
-Faites un export de votre jeu et utilisez l'[Intel XDK](https://software.intel.com/en-us/intel-xdk)
-pour générer des apps pour les plateformes de votre choix, puis soumettez-les.
+L'export vers mobile se fait avec [Intel XDK](https://software.intel.com/en-us/intel-xdk). Pour cela, suivez ce [tutoriel](http://www.tzu3d.com/tutorials/Superpowers/tuto-1-Intel%20XDK.html) de shadowtzu, qui vous guidera pour la configuration de votre projet.
 
-Sur Android, il semble que la version minimale requise (avec support de WebGL) est la 4.4.
-En conséquence, vous devriez paramétrer `Projects/Build Settings/Minimum Android Version` à `19` dans votre projet Intel XDK.
+<div class="note"> 
+<p> Sur Android, la version minimale requise (avec support de WebGL) est la 5.0.
+En conséquence, vous devriez paramétrer `Projects/Build Settings/Minimum Android Version` à `21` dans votre projet Intel XDK.
+</div>
